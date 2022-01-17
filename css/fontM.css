@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------------------------------font size setting*/
+body { font-size: 1em; }
+.fontSet { width: 125px; }
+#Header .menu { margin: 4px 0 0 0; }
+/*  */
+.Block2 .col-md-4 .headline ul li{ height: 85px; padding: 10px 0 10px 100px; }
+.Block2 .col-md-4 .headline ul li span { margin: 0 10px 0 -98px; }
+@media (max-width:1199px) and (min-width:992px) {
+.Block2 .col-md-4 .headline ul li { height: 110px; padding: 10px 0 10px 100px; }
+.Block2 .col-md-4 .headline ul li span { margin: 0 10px 0 -98px; }
+}
+@media(max-width:991px) {
+.Block2 .col-md-4 .headline ul li { height: auto; }
+}
+
+
+/*--*/
+.Block2 .col-md-3 .headline { padding: 50px 15px 70px; }

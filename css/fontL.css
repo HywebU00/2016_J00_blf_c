@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------------------------------font size setting*/
+body { font-size: 1.125em; }
+.fontSet { width: 130px; }
+.custom {margin: 5px 0px 0 8px;}
+ @media (max-width:1199px) and (min-width: 992px) {
+.service ul li a { padding: 3px 10px 3px 75px; height: 60px; }
+}
+#Header .menu { margin: 1px 0 0 0; }
+.Block2 .col-md-4 .headline ul li{ height: 95px; padding: 10px 0 10px 120px; }
+.Block2 .col-md-4 .headline ul li span{ margin: 0 10px 0	 -110px; }
+.Block2 .col-md-3:nth-child(2n){height: 575px;}
+
+@media (max-width:1199px) and (min-width:992px) {
+.Block2 .col-md-4 .headline ul li { height: 130px; padding: 10px 0 10px 100px; }
+.Block2 .col-md-4 .headline ul li span{ margin: 0 10px 0 -98px; }
+}
+@media(max-width:991px) {
+.Block2 .col-md-4 .headline ul li{ height: auto; }
+}
+/*--*/
+.Block2 .col-md-3 .headline { padding: 50px 10px 70px; }
+.Block2 .col-md-3 .headline ul li {  height: 95px;  }
+@media (max-width:991px) {
+.Block2 .col-md-3 .headline ul li { height: auto; }
+.Block2 .col-md-3:nth-child(2n){height:auto;}
+
+}
