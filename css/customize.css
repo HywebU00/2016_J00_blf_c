@@ -75,7 +75,6 @@
     color: #d6f2f2
 }
 @media (max-width:991px) {}
-
 #FatFooter .btn-fatfooter {
     font-size: .813em;
     display: block;
@@ -108,16 +107,16 @@
 }
 #FatFooter .btn-fatfooter:hover,
 #FatFooter .btn-fatfooter:focus {
-   background: transparent;
+    background: transparent;
     color: #333;
     text-decoration: none;
     cursor: pointer;
     border: none;
-    box-shadow: 0 0 0 2px #ffc000 ;
+    box-shadow: 0 0 0 2px #ffc000;
     outline: none;
     border: none;
     cursor: pointer;
-    opacity:1;
+    opacity: 1;
 }
 #FatFooter .btn-fatfooter.close:before {
     transform: rotate(135deg) !important;
@@ -663,34 +662,21 @@ p {
     list-style-type: none;
 }
 .fontSet ul li a {
-    width: 21px;
-    height: 21px;
+    width: 22px;
+    height: 22px;
     display: block;
     background-repeat: no-repeat;
     background-position: top center;
+    background-color: #278186;
+    color: #fff;
+    text-align: center;
 }
-.fontSet ul li a img {
-    width: 21px;
-    height: 21px;
-    display: block;
+.fontSet ul li a:hover, .fontSet ul li a:focus {
+    text-decoration: none;
+    background-color: #d1432d;
 }
-.fontSet ul li.fontS a {
-    background-image: url(../images/wordsmall.gif);
-}
-.fontSet ul li.fontM a {
-    background-image: url(../images/wordmiddle.gif);
-}
-.fontSet ul li.fontL a {
-    background-image: url(../images/wordbig.gif);
-}
-.fontSet ul li.fontS a.sw-here {
-    background-image: url(../images/wordsmall_here.gif);
-}
-.fontSet ul li.fontM a.sw-here {
-    background-image: url(../images/wordmiddle_here.gif);
-}
-.fontSet ul li.fontL a.sw-here {
-    background-image: url(../images/wordbig_here.gif);
+.fontSet ul li a.sw-here {
+    background-color: #d1432d;
 }
 /*-----------------------------------------------分享社群-*/
 .share {
