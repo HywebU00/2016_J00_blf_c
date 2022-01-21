@@ -1709,7 +1709,7 @@ p {
     text-decoration: none !important;
 }
 .copyright ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline!important ;
 }
 /*-說明*/
 #Footer .explanation {
