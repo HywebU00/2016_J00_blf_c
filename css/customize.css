@@ -1974,7 +1974,7 @@ p {
         display: none
     }
 }
-.Block_incontent .inmenu h2 {
+.Block_incontent .inmenu .title {
     font-size: 1.375em;
     background-color: #278186;
     color: #fff;
