@@ -4588,7 +4588,8 @@ button:focus {
 }
 /* Accordion */
 .accordion_grounp {
-    overflow: hidden
+    overflow: hidden;
+    clear: both;
 }
 .accordion_grounp .accordionblock {
     width: 100%;
@@ -4865,9 +4866,7 @@ button:focus {
     text-shadow: none;
     opacity: 1;
 }
-.accordion_grounp .accordionblock div.Q .word.close:hover{
-
-}
+.accordion_grounp .accordionblock div.Q .word.close:hover {}
 .accordion_grounp .accordionblock div.Q .word.close:after {
     top: 10px;
     transform: rotate(45deg)
