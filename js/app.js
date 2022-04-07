@@ -274,12 +274,23 @@ $(function() {
             // _accordionItem3.keyup(accordion3);
         }
     });
-
     // 點外面關閉
     $(document).on('touchend click', function(e) {
         var container = $(" .ask_questions .btn, .ask_questions .questions_block");
         if (!container.is(e.target) && container.has(e.target).length === 0) {
             $(' .ask_questions .questions_block').slideUp();
         }
+    });
+})
+$(function() {
+    $('.adblock ul').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        vertical: true,
+        arrows: true, 
+        
     });
 })
