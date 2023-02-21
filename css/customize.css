@@ -2259,6 +2259,7 @@ p {
     display: inline-block;
     line-height: 100%;
     vertical-align: middle;
+    position: relative;
 }
 .page ul li {
     margin: 0 2px;
@@ -2302,7 +2303,9 @@ p {
     border: none;
     height: 22px;
     width: 22px;
-    border: 1px solid #bbb
+    border: 1px solid #bbb;
+    font-size: 0;
+    line-height:22px;
 }
 .page ul li.prev a {
     background-position: -2px 0px;
