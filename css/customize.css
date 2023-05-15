@@ -4994,12 +4994,12 @@ button:focus {
 /* 跑馬燈 */
 .marquee_block {
     font-size: 1.125em;
+     background-color: #278186
 }
 .marquee_block .marquee {
     height: 50px;
     display: block;
     overflow: hidden;
-    background-color: #ffe599;
     margin: 0;
     text-align: left;
     padding: 0;
@@ -5036,7 +5036,7 @@ button:focus {
     right: auto !important;
     top: 32%;
     left: 60px;
-    opacity: .5;
+    opacity:1;
     width: 20px !important;
     height: 20px !important;
     background: url('../assets/module/slick/icon_arrow_up_s.png') no-repeat center center;
@@ -5047,7 +5047,7 @@ button:focus {
     transform: rotate(180deg);
     top: 32%;
     left: auto;
-    opacity: .5;
+    opacity:1;
     width: 20px !important;
     height: 20px !important;
     background: url('../assets/module/slick/icon_arrow_up_s.png') no-repeat center center;
@@ -5061,9 +5061,9 @@ button:focus {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 .marquee_block .marquee ul li a:hover {
-    color: #278186;
+    color: #fff9bf;
 }
