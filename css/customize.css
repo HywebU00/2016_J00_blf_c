@@ -2867,7 +2867,7 @@ p {
     float: left;
     width: auto
 }
-.cp .share h3 {
+.cp .share .share_title {
     padding: 6px 3px 0 0;
     margin: 0;
     line-height: 100%;
