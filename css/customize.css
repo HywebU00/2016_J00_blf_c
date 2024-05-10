@@ -790,6 +790,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   padding: 6px 16px;
+  font-size: 0;
+  height: 34px;
 }
 .Search .btn-default:focus {
   box-shadow: 0 0 0 2px #ffc000 inset;
